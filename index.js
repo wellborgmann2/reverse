@@ -6,7 +6,7 @@ module.exports = async (req, res) => {
     const url = req.query;
     const response = await fetch(url);
     const data = await response.json();
-
+    console.log(data);
     // Manipula a resposta e envia para o cliente
     res.status(200).json(data);
   } catch (error) {
