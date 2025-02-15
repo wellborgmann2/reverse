@@ -1,0 +1,19 @@
+{
+  "name": "vercel-proxy",
+  "version": "1.0.0",
+  "description": "Proxy simples para Vercel",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vercel dev",
+    "start": "vercel dev",
+    "build": "vercel build"
+  },
+  "dependencies": {
+    "node-fetch": "^3.0.0"
+  },
+  "engines": {
+    "node": "16.x"
+  },
+  "author": "Seu Nome",
+  "license": "MIT"
+}
